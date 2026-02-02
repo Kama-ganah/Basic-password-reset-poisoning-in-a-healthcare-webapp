@@ -2,7 +2,7 @@
 
 As a penetration tester, I conducted a security assessment of a web application’s password reset functionality after identifying indicators of unsafe trust in client-controlled input. The engagement focused on evaluating how password reset links were generated and whether untrusted HTTP headers influenced sensitive workflows. By manipulating the Host header during the reset process, I was able to poison the reset link, capture another user’s reset token, and gain unauthorized access to the account.
 
-# Steps Undertaken
+# Methodology
 
 Step 1: Assessed the password reset workflow to understand how reset links were generated and delivered to users.
 
